@@ -87,7 +87,7 @@ class App extends Component {
     //   "Total:  " + " N " + ((totalAmount * 12) / 100 + totalAmount)
     // );
 
-    doc.save("test.pdf");
+    doc.save("inv.pdf");
   };
   handleChange = (e, name) => {
     if (name === "invoice") {
